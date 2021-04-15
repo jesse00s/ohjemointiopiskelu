@@ -13,23 +13,34 @@
     <div class="current-operand"></div>
 
     </div>
-   <button class="span-two">AC</button>
-   <button >DEL</button>
-   <button >/</button>
-   <button >1</button>
-   <button >2</button>
-   <button >3</button>
-   <button >*</button>
-   <button >4</button>
-   <button >5</button>
-   <button >6</button>
-   <button >+</button>
-   <button >7</button>
-   <button >8</button>
-   <button >-</button>
-   <button >.</button>
-   <button >0</button>
-   <button class="span-two">=</button>
+  
+    <button id="reset"  onclick = "nappi()">AC</button>
+    <button id="poisto"  onclick = nappi()>C</button>
+    <button id="pros"  onclick="nappi('%')">%</button>
+    <button id="jako"  onclick="nappi('/')">/</button>
+  
+  
+    <button id="7"  value = "7" onclick="nappi('7')">7</button>
+    <button id="8"  value = "8" onclick="nappi('8')">8</button>
+    <button id="9"  value = "9" onclick="nappi('9')">9</button>
+    <button id="kerto"  onclick="nappi('*')">*</button>
+  
+  
+    <button id="4"  value = "4" onclick="nappi('4')">4</button>
+    <button id="5"  value = "5" onclick="nappi('5')">5</button>
+    <button id="6"  value = "6" onclick="nappi('6')">6</button>
+    <button id="minus"  onclick="nappi('-')">-</button>
+  
+  
+    <button id="1"  onclick="nappi('1')">1</button>
+    <button id="2"  onclick="nappi('2')">2</button>
+    <button id="3"  onclick="nappi('3')">3</button>
+    <button id="plus"  onclick="nappi('+')">+</button>
+  
+  
+    <button id="0"  onclick="nappi('0')">0</button>
+    <button id="pilkku"   onclick="nappi('.')">,</button>
+    <button id="yhtSuuri"  onclick="nappi()">=</button>
  </div>
 </body>
 </html>
