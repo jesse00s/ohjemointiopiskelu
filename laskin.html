@@ -7,40 +7,46 @@
     <title>Laskin</title>
 </head>
 <body>
+    <tr>
  <div class="calculator-grid">
     <div class="Output">
     <div class="previous-operand"></div>
     <div class="current-operand"></div>
 
     </div>
+    <td>
+<tr>
+   <td><button name="AC" id="reset"  onclick = "nappi()">AC</button></td>
+    <td><button name="C" id="poisto"  onclick = nappi()>C</button></td>
+   <td><button name="%" id="pros"  onclick="nappi('%')">%</button></td>
+    <td><button name="/" id="jako"  onclick="nappi('/')">/</button></td>
+    </tr>
+  <tr>
+    <td><button name="7" id="7"  value = "7" onclick="nappi('7')">7</button></td>
+    <td><button name="8" id="8"  value = "8" onclick="nappi('8')">8</button></td>
+    <td><button name="9" id="9"  value = "9" onclick="nappi('9')">9</button></td>
+   <td><button name="*" id="kerto"  onclick="nappi('*')">*</button></td>
+   </tr>
+  <tr>
+    <td><button name="4" id="4"  value = "4" onclick="nappi('4')">4</button></td>
+    <td><button name="5" id="5"  value = "5" onclick="nappi('5')">5</button></td>
+    <td><button name="6" id="6"  value = "6" onclick="nappi('6')">6</button></td>
+   <td><button name="-" id="minus"  onclick="nappi('-')">-</button></td>
+   </tr>
+   <tr>
   
-    <button id="reset"  onclick = "nappi()">AC</button>
-    <button id="poisto"  onclick = nappi()>C</button>
-    <button id="pros"  onclick="nappi('%')">%</button>
-    <button id="jako"  onclick="nappi('/')">/</button>
+    <td><button name="1" id="1"  onclick="nappi('1')">1</button></td>
+  <td><button name="2" id="2"  onclick="nappi('2')">2</button></td>
+    <td><button name="3" id="3"  onclick="nappi('3')">3</button></td>
+   <td><button name="+" id="plus"  onclick="nappi('+')">+</button></td>
+   </tr>
+   <tr>
   
-  
-    <button id="7"  value = "7" onclick="nappi('7')">7</button>
-    <button id="8"  value = "8" onclick="nappi('8')">8</button>
-    <button id="9"  value = "9" onclick="nappi('9')">9</button>
-    <button id="kerto"  onclick="nappi('*')">*</button>
-  
-  
-    <button id="4"  value = "4" onclick="nappi('4')">4</button>
-    <button id="5"  value = "5" onclick="nappi('5')">5</button>
-    <button id="6"  value = "6" onclick="nappi('6')">6</button>
-    <button id="minus"  onclick="nappi('-')">-</button>
-  
-  
-    <button id="1"  onclick="nappi('1')">1</button>
-    <button id="2"  onclick="nappi('2')">2</button>
-    <button id="3"  onclick="nappi('3')">3</button>
-    <button id="plus"  onclick="nappi('+')">+</button>
-  
-  
-    <button id="0"  onclick="nappi('0')">0</button>
-    <button id="pilkku"   onclick="nappi('.')">,</button>
-    <button id="yhtSuuri"  onclick="nappi()">=</button>
+    <td><button name="0" id="0"  onclick="nappi('0')">0</button></td>
+     <td><button name="." id="pilkku"   onclick="nappi('.')">,</button></td>
+      <td><button name="=" id="yhtSuuri"  onclick="nappi()">=</button></td>
+
+      </tr>     
  </div>
 </body>
 </html>
